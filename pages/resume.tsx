@@ -1,4 +1,4 @@
-import Bar from "../components/bar";
+import  Bar  from "../components/Bar";
 import { languages, tools  } from "../data"
 
 
@@ -19,7 +19,7 @@ export const Resume = () => {
 
 
 
-  <div>
+   <div>
     <h5 className='my-3 text-2xl font-bold'>Experiance</h5>
     <div>
         <h5 className='my-2 text-xl font-bold'> Software Engineer</h5>
@@ -59,4 +59,7 @@ export const Resume = () => {
 
     );
 };
+
+
+
 export default Resume

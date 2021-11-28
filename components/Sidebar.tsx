@@ -5,6 +5,8 @@ import { FaRegNewspaper } from 'react-icons/fa'
 
 import {useTheme} from 'next-themes'
 
+import Image from 'next/image'
+
 
 
 const Sidebar = () => {
@@ -16,11 +18,16 @@ const Sidebar = () => {
     };
 
     return (
-        <div>
-            <img src="/me.jpeg" 
-            alt="User Avatar"
-            className= 'w-32 h-32 mx-auto rounded-full'
-            />
+        <>
+        <Image 
+            src="/images/me.jpeg" 
+            alt="avatar"
+            className="mx-auto border rounded-full "
+            height="128px"
+            width="128px"
+            layout="intrinsic"
+            quality="100"
+      />
             <h3 className='my-4 text-3xl font-medium tracking-wider font-name'> 
             <span className='text-blue-500'>Matthew </span>
             Smith
@@ -66,9 +73,9 @@ const Sidebar = () => {
             <button 
             onClick={changeTheme}
             className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-200 via-cyan-300 to-blue-400 dark:from-blue-600 dark:to-blue-800 dark:text-white'>
-                Toggle Theme
+                Switch Theme
             </button>
-        </div>
+        </>
     )
 }
 

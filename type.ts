@@ -1,6 +1,7 @@
 
 import { FunctionComponent } from "react";
 import { IconType } from "react-icons";
+
 export interface Service {
   Icon: IconType;
   title: string;
@@ -10,7 +11,7 @@ export interface Service {
 export interface Skill {
   Icon: IconType;
   name: string;
-  level: string;
+  skill: string;
 }
 
 export interface IProject {

@@ -9,7 +9,20 @@ import { AiFillMail } from "react-icons/ai"
 import { GiMagnifyingGlass } from "react-icons/gi"
 import { IProject, Service, Skill } from "./type";
 
-import { BsCircleFill } from "react-icons/bs";
+import { DiDjango } from "react-icons/di";
+import { DiPython } from "react-icons/di";
+import { DiReact } from "react-icons/di";
+import { DiJavascript } from "react-icons/di";
+import { DiPhp } from "react-icons/di";
+import { DiHtml5 } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
+import { DiMysql } from "react-icons/di";
+import { SiWagtail } from "react-icons/si";
+import { DiWordpress } from "react-icons/di";
+import { SiShopify } from "react-icons/si";
+import { SiWoocommerce } from "react-icons/si";
+import { DiPhotoshop } from "react-icons/di";
+
 
 export const services: Service[] = [
   {
@@ -51,85 +64,85 @@ export const services: Service[] = [
 
 export const languages:Skill[]= [
   {
-    Icon:BsCircleFill,
+    Icon:DiPython,
     name:'Python',
-    level:'40%',
+    skill:'40%',
     
   },
 
   {
-    Icon:BsCircleFill,
+    Icon:DiJavascript,
     name:'JavaScript',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiDjango,
     name:'Django',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiPhp,
     name:'PhP',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiHtml5,
     name:'Html 5',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiCss3,
     name:'CSS 3',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiMysql,
     name:'SQL',
-    level:'40%',
+    skill:'40%',
     
   },
   {
-    Icon:BsCircleFill,
+    Icon:DiReact,
     name:'React',
-    level:'40%',
+    skill:'40%',
     
   },
 ];
 
 export const tools:Skill[]= [
     {
-      Icon:BsCircleFill,
+      Icon:SiWagtail,
       name:'Wagtail',
-      level:'40%',
+      skill:'40%',
       
     },
     {
-      Icon:BsCircleFill,
+      Icon:DiWordpress,
       name:'WordPress',
-      level:'40%',
+      skill:'40%',
       
     },
     {
-      Icon:BsCircleFill,
+      Icon:SiShopify,
       name:'Shopify',
-      level:'40%',
+      skill:'40%',
       
     },
     {
-      Icon:BsCircleFill,
+      Icon:SiWoocommerce,
       name:'Woo Commerce',
-      level:'40%',
+      skill:'40%',
       
     },
     {
-      Icon:BsCircleFill,
+      Icon:DiPhotoshop,
       name:'Photoshop',
-      level:'40%',
+      skill:'40%',
       
     },
   
@@ -139,7 +152,7 @@ export const projects:IProject[] = [
   {
     name:"Pong",
     description:"Classic arcade game remade",
-    image_path:"/images/pong1.png",
+    image_path:"/images/pong2.jpg",
     deployed_url:"https://matthewsmithwebdesign.github.io/pong/",
     github_url:"https://github.com/MatthewSmithwebdesign/pong",
     category:["games", "javascript"],
