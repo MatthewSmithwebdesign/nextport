@@ -1,6 +1,8 @@
 import  Bar  from "../components/Bar";
 import { languages, tools  } from "../data"
 
+import{motion} from "framer-motion";
+import {fadeInUp} from '../animations'
 
 export const Resume = () => {
     return (
@@ -37,7 +39,7 @@ export const Resume = () => {
         <div className='my-2'>
             {
                 languages.map(Language => (
-                <Bar data={Language} key={Language.name} />
+                <Bar value={Language} key={Language.name} />
                 
                 ))}
         </div>
@@ -48,7 +50,7 @@ export const Resume = () => {
         <div className='my-2'>
             {
                 tools.map(tool => (
-                <Bar data={tool} key={tool.name} />
+                <Bar value={tool} key={tool.name} />
                 
                 ))}
         </div>
