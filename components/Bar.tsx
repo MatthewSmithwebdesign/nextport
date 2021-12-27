@@ -27,13 +27,13 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
   return (
     <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-500">
       <div
-        className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-green to-blue-500"
+        className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-blue-500 via-cyan-300 to-blue-400"
         style={{
           width: bar_width,
         }}
-        variants ={variants}
-        initial="initial"
-        animate="animate"
+        //variants ={variants}
+        //initial="initial"
+        //animate="animate"
       >
         <Icon className="mr-3" /> {name}
       </div>
