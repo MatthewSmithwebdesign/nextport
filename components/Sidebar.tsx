@@ -51,7 +51,7 @@ const Sidebar = () => {
                 <a href="https://github.com/MatthewSmithwebdesign/">
                     <AiFillGithub className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href="https://dev.to/matthew_smith_web_design">
+                <a href="https://medium.com/@matthewsmithwebdesign">
                     <FaRegNewspaper className='w-8 h-8 cursor-pointer' />
                 </a>
             </div>

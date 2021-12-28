@@ -14,8 +14,10 @@ export const Resume = () => {
       <div>
         <h5 className='my-2 text-xl font-bold'> Web Development</h5>
         <p className='font-semibold'> Studio Web (2020)</p>
-        <p className='my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, architecto magni. Minus, ipsam. 
-            Quos quia ipsa eveniet rem, amet esse quibusdam reiciendis aperiam alias quas iste quidem beatae, modi facere.</p>
+        <p className='my-3'>FullStack Web Development 
+        I studied modern development practices in technologies including (Html 5, Css3, JavaScript, PHP, Python, SQL). 
+        Other courses included freelancing and project management. 
+        Learned the entire process from taking requirements on a page to making fully functional Web Apps. </p>
     </div>
 </div>
 
@@ -26,8 +28,15 @@ export const Resume = () => {
     <div>
         <h5 className='my-2 text-xl font-bold'> Software Engineer</h5>
         <p className='font-semibold'> Matthew Smith Web Design (2017 - Current)</p>
-        <p className='my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, architecto magni. Minus, ipsam. 
-            Quos quia ipsa eveniet rem, amet esse quibusdam reiciendis aperiam alias quas iste quidem beatae, modi facere.</p>
+        <p className='my-3'>Freelance Software Engineering creating solutions for 
+                        <ol>
+                            <li>Nonprofits</li>
+                            <li>Small and medium-sized businesses</li>
+                            <li>Developed custom solutions to solve problems and increase revenue</li>
+                            <li>Email campaigns to promote sales and events</li>
+                            <li>Solved Seo and online visibility issues for clients to increase their online presence and ranking in search algorithms and increase sales and users </li>
+                            
+                            </ol></p>
     </div>
 </div>
 </div>
