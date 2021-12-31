@@ -24,4 +24,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "next" | "typescript" | "django" | "sql" | "javascript" | "games";
+export type Category = "react" | "next" | "typescript" | "django" | "sql" | "javascript" | "games" | "wordpress" | "php" | "shopify";

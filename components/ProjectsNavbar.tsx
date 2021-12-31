@@ -27,6 +27,8 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="sql" {...props} />
       <NavItem value="django" {...props} />
       <NavItem value="javascript" {...props} />
+      <NavItem value="wordpress" {...props} />
+      <NavItem value="shopify" {...props} />
     </div>
   );
 };
