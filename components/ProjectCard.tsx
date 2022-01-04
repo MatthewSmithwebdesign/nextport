@@ -6,7 +6,8 @@ import { MdClose } from "react-icons/md";
 import { IProject } from "../type";
 
 import Image from "next/image";
-
+import { motion } from "framer-motion";
+import { fadeInUp, stagger } from "../animations";
 const ProjectCard: FunctionComponent<{
   project: IProject;
 }> = ({

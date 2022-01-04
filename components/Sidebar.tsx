@@ -20,7 +20,7 @@ const Sidebar = () => {
     return (
         <>
         <Image 
-            src="/images/me.jpeg" 
+            src="/images/mwswdblue.png" 
             alt="avatar"
             className="mx-auto border rounded-full "
             height="128px"
@@ -36,8 +36,9 @@ const Sidebar = () => {
                 Web Developer
             </p>
             <a
-            className='flex items-center justify-center px-2 py-1 my-3 rounded-full bg-grey-200 dark:bg-dark-200' href=''
-            download='name'>
+             href="/public/Resume Matthew Smith.pdf"
+            className='flex items-center justify-center px-2 py-1 my-3 rounded-full bg-grey-200 dark:bg-dark-200' 
+            download="Resume Mattthew Smith.pdf">
                 
                 <BsFileEarmarkArrowDownFill  className='w-6 h-6 text-blue-500' />Download Resume
 
@@ -51,7 +52,7 @@ const Sidebar = () => {
                 <a href="https://github.com/MatthewSmithwebdesign/">
                     <AiFillGithub className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href="https://dev.to/matthew_smith_web_design">
+                <a href="https://medium.com/@matthewsmithwebdesign">
                     <FaRegNewspaper className='w-8 h-8 cursor-pointer' />
                 </a>
             </div>
