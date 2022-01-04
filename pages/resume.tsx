@@ -1,8 +1,7 @@
 import  Bar  from "../components/Bar";
 import { languages, tools  } from "../data"
 
-import{motion} from "framer-motion";
-import {fadeInUp} from '../animations'
+
 
 export const Resume = () => {
     return (
@@ -13,7 +12,7 @@ export const Resume = () => {
     <h5 className='my-3 text-2xl font-bold'>Education</h5>
       <div>
         <h5 className='my-2 text-xl font-bold'> Web Development</h5>
-        <p className='font-semibold'> Studio Web (2020)</p>
+        <p className='font-semibold'> Self-Taught </p>
         <p className='my-3'>FullStack Web Development 
         I studied modern development practices in technologies including (Html 5, Css3, JavaScript, PHP, Python, SQL). 
         Other courses included freelancing and project management. 
