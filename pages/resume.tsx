@@ -17,6 +17,17 @@ export const Resume = () => {
         I studied modern development practices in technologies including (Html 5, Css3, JavaScript, PHP, Python, SQL). 
         Other courses included freelancing and project management. 
         Learned the entire process from taking requirements on a page to making fully functional Web Apps. </p>
+        <h5 className='font-semibold'> Certifications (Studio Web)</h5>
+        <p className='my-1'>
+            <ol>
+                <li>Html 5</li>
+                <li>CSS 3</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ol>
+        </p>
     </div>
 </div>
 
