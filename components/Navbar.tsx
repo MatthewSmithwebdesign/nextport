@@ -34,8 +34,8 @@ const { pathname } = useRouter()
 
 useEffect(() => {
     if (pathname === '/') setActiveItem('About')
-    if (pathname === 'resume') setActiveItem('Resume')
-    if (pathname === 'projects') setActiveItem('Projects')
+   else if (pathname === 'resume') setActiveItem('Resume')
+   else if (pathname === 'projects') setActiveItem('Projects')
 }, [])
 
 
@@ -51,10 +51,11 @@ useEffect(() => {
 
 
 
-</div>
-
         </div>
+
+    </div>
     
-    )}
+    )
+}
 
 export default Navbar
