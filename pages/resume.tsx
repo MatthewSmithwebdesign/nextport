@@ -11,9 +11,9 @@ export const Resume = () => {
      <div>
     <h5 className='my-3 text-2xl font-bold'>Education</h5>
       <div>
-        <h5 className='my-2 text-xl font-bold'> Web Development</h5>
-        <p className='font-semibold'> Self-Taught </p>
-        <p className='my-3'>FullStack Web Development 
+        <h5 className='my-2 text-xl font-bold'>Self-Taught FullStack Web Development</h5>
+      {/* <p className='font-semibold'> Self-Taught </p> */}
+        <p className='my-3'> 
         I studied modern development practices in technologies including (Html 5, Css3, JavaScript, PHP, Python, SQL). 
         Other courses included freelancing and project management. 
         Learned the entire process from taking requirements on a page to making fully functional Web Apps. </p>
