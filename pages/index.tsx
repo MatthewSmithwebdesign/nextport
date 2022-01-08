@@ -16,9 +16,9 @@ export const index = () => {
           What I Offer
         </h6>
         <div className='grid gap-6 lg:grid-cols-2'>
-          {services.map(services => (
-            <div className="col-span-1 bg-blue-200 rounded-lg dark:bg-dark-200 lg:">
-            <ServiceCard service={services} />
+          {services.map((serviceObj,index) => (
+            <div className="col-span-1 bg-blue-200 rounded-lg dark:bg-dark-200 lg:" key={serviceObj.title}>
+            <ServiceCard service={serviceObj} />
             </div>
           ))}
         </div>
