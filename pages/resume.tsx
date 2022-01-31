@@ -34,9 +34,9 @@ export const Resume = () => {
 
 
    <div>
-    <h5 className='my-3 text-2xl font-bold'>Experiance</h5>
+    <h5 className='my-3 text-2xl font-bold'>Experience</h5>
     <div>
-        <h5 className='my-2 text-xl font-bold'> Software Engineer</h5>
+        <h5 className='my-2 text-xl font-bold'> Software Developer</h5>
         <p className='font-semibold'> Matthew Smith Web Design (2017 - Current)</p>
         <p className='my-3'>Freelance Software Engineering creating solutions for 
                         <ol>

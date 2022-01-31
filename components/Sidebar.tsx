@@ -6,6 +6,10 @@ import { FaRegNewspaper } from 'react-icons/fa'
 import {useTheme} from 'next-themes'
 
 import Image from 'next/image'
+import FileViewer from "react-file-viewer/src/components";
+
+import pdf from "/public/Resume Matthew Smith.pdf"
+import dynamic from 'next/dynamic';
 
 
 
@@ -16,7 +20,10 @@ const Sidebar = () => {
     const changeTheme = () => {
         setTheme(theme === "light" ? "dark": "light");
     };
-
+    
+    const FileViewer = dynamic(() => import('react-file-viewer'), {
+        ssr: false
+    });
     return (
         <>
         <Image 
