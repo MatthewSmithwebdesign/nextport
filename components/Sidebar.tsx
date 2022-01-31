@@ -7,6 +7,8 @@ import {useTheme} from 'next-themes'
 
 import Image from 'next/image'
 
+import dynamic from 'next/dynamic';
+
 
 
 const Sidebar = () => {
@@ -16,7 +18,10 @@ const Sidebar = () => {
     const changeTheme = () => {
         setTheme(theme === "light" ? "dark": "light");
     };
-
+    
+    //const FileViewer = dynamic(() => import('react-file-viewer'), {
+      //  ssr: false
+   // });
     return (
         <>
         <Image 
